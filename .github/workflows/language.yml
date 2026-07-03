@@ -60,7 +60,7 @@ jobs:
         run: cargo make check-rust
 
       - name: Run Rust style check
-        uses: hack-ink/vibe-style@bfb4d2d2f5e4b5e5ce8de4ed1d708b3a2f0e61fe # v0.2.1
+        uses: hack-ink/vibe-style@f509613696c60fbc5e444072469024888d91d88b # v0.2.2
         with:
           language: rust
           workspace: true
